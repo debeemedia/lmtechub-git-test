@@ -1,0 +1,48 @@
+  #TERMINAL COMMANDS
+cd(change directory) - Depending on how its used, it is used to change between directories.
+  e.g running cd .. ,will take us to our parent directory.
+
+ls(list) - lists all the files in the directory.
+
+pwd(Print Working Directory) - Shows current directory.
+
+mkdir(make directory) - This is used to create a new folder in the working directory.
+  e.g mkdir tables will create a new folder with the name 'tables'.
+
+touch - used to create a new file in the current directory.
+  e.g touch tables.txt will create a file with the name tables.txt
+
+rm(remove) - this is used to remove all files in a directory.
+  e.g rm tables.txt will remove the tables.txt file from our directory
+
+rmdir(remove directory) - This command is used to remove folders in a directory. 
+e.g rmdir tables will remove a folder named tables from my directory. 
+
+*(all) - This is used to add all the elements depending on it's usage.
+  E.g running rm * will remove all the files in that directory.
+  running rmdir * will remove all folders in the directory.
+
+mv(move) - this is used to rename a folder
+    e.g running mv tables.txt chairs.txt will move the tables.txt file into a chairs.txt file thereby renaming it.
+
+echo - this is used to input a text/write inside a file. 
+  e.g running echo + <'text'> + <file name> .
+
+&& - This is used to run multiple commands on a single line
+  e.g running : cd tables && touch m1 m2 m3 m4 will move us to the tables directory and create files m1,m2,...
+
+code . - this opens vs code with your open directory.
+
+#GIT COMMANDS
+git init - initializes/invokes git to your current directory.
+git status - used to check the status of new or changed files.
+git add - this is used to stage a file to git to be committed.
+git add . - this is used to add all files to git.
+git commit -m <name of your choice> - this commits changes you've made to a file so git can take note of it.
+git branch - This is used to show all branches.
+git branch + <name> - this creates a new branch in git.
+git switch + <branch name> - this is used to switch between branches.
+git log - this is used to check to commit history of a branch
+git push - this is used to push commits made to a file to a remote github repository.
+git pull - this is used to pull commits from a remote repository.
+git remote add origin <name of branch> - adds a remote repositoryto your configuration.
